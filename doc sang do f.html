@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Please input C</h1> <br>
+<input type="text" id="doC"/> <br>
+<input type="button" onclick="trans()" value="click">
+<script>
+    function trans() {
+        let a = parseFloat(document.getElementById("doC").value) ;
+        let b = 1.8*a + 32 ;
+        document.write("Do F = " +b);
+    }
+</script>
+</body>
+</html>
